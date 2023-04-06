@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Random Dad Joke Generator</title>
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</head>
+
+<body>
+    <h1>Random Dad Joke Generator</h1>
+    <p>
+        Click the button below to generate a random dad joke:
+    </p>
+    <button onclick="generateJoke()">Generate Joke</button>
+    <div id="joke-container"></div>
+</body>
+
+</html>
